@@ -1,0 +1,6 @@
+.list {
+   @apply grid grid-cols-2 gap-8;
+   @media (max-width:1200px){
+      @apply grid-cols-1;
+   }
+}
